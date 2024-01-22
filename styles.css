@@ -1,4 +1,48 @@
 .recipe.pic {
+    display: block;
     height: auto;
-    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;   
 }
+
+.title {
+    background: #a8e4ca;
+    color: dimgray;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.section.title {
+    font-style: italic;
+}
+
+.card {
+    background: #fffceb;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul, ol {
+    padding: 0px;
+} 
+
+li {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+h2 {
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+
+
